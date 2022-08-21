@@ -23,7 +23,7 @@ export default function Projeto() {
 
   return (
     <div>
-      <h1 className="text-2xl">Projeto:   </h1>
+      <h1 className="text-2xl">Projeto: {}  </h1>
       <button>Editar projeto</button>
     </div>
   )
