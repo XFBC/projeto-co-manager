@@ -1,71 +1,26 @@
 {
   "projects": [
     {
-      "name": "Primeiro projeto de front end ",
-      "budget": "50000",
+      "name": "projeto fron-end",
+      "budget": "10000",
       "category": {
-        "id": "2",
-        "name": "Desenvolvimento"
+        "id": "5",
+        "name": "Fron-end"
+      },
+      "coManager": 0,
+      "services": [],
+      "id": 1
+    },
+    {
+      "name": "projeto back end",
+      "budget": "10000",
+      "category": {
+        "id": "3",
+        "name": "Design"
       },
       "coManager": 0,
       "services": [],
       "id": 2
-    },
-    {
-      "name": "111",
-      "budget": "11",
-      "category": {
-        "id": "1",
-        "name": "infra"
-      },
-      "coManager": 0,
-      "services": [],
-      "id": 3
-    },
-    {
-      "name": "1",
-      "budget": "1",
-      "category": {
-        "id": "1",
-        "name": "infra"
-      },
-      "coManager": 0,
-      "services": [],
-      "id": 4
-    },
-    {
-      "name": "1",
-      "budget": "1",
-      "category": {
-        "id": "1",
-        "name": "infra"
-      },
-      "coManager": 0,
-      "services": [],
-      "id": 5
-    },
-    {
-      "budget": "1111",
-      "name": "11111",
-      "category": {
-        "id": "1",
-        "name": "infra"
-      },
-      "coManager": 0,
-      "services": [],
-      "id": 6
-    },
-    {
-      "name": "1",
-      "budget": "1",
-      "coManager": 0,
-      "services": [],
-      "id": 7
-    },
-    {
-      "coManager": 0,
-      "services": [],
-      "id": 8
     }
   ],
   "categories": [
