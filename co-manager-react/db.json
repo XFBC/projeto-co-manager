@@ -1,11 +1,11 @@
 {
   "projects": [
     {
-      "name": "projeto fron-end",
-      "budget": "10000",
+      "name": "projeto front-end",
+      "budget": "12000",
       "category": {
-        "id": "5",
-        "name": "Fron-end"
+        "id": "4",
+        "name": "Planejamento"
       },
       "coManager": 0,
       "services": [],
@@ -21,6 +21,17 @@
       "coManager": 0,
       "services": [],
       "id": 2
+    },
+    {
+      "name": "Landing Page Loja 1 ",
+      "budget": "10000",
+      "category": {
+        "id": "3",
+        "name": "Design"
+      },
+      "coManager": 0,
+      "services": [],
+      "id": 3
     }
   ],
   "categories": [
