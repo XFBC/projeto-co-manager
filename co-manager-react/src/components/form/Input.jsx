@@ -4,12 +4,14 @@ export default function Input({
   name,
   placeholder,
   handleOnChange,
-  value
+  value,
+  className,
 }) {
   return (
     <div>
       <label htmlFor={name}>{text}</label>
       <input
+        className={className}
         type={type}
         name={name}
         placeholder={placeholder}

@@ -14,7 +14,7 @@ export default function ProjetoCard({
   }
   return (
     <div>
-      <div className="mt-4 border-gray-700 border-x-2 border-y-2 w-[50%] ">
+      <div className="mt-2 border-gray-700 border-x-2 border-y-2 px-2 py-2 rounded-md">
         <h2 className="text-xl font-normal"> {name}</h2>
         <p>Orçamento: R$ {budget}</p>
         <p> {category}</p>

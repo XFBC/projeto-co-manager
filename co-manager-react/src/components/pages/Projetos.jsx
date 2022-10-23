@@ -59,14 +59,14 @@ export default function Projetos() {
 
       <LinkButton to="/novoprojeto" text="Criar projeto" />
 
-      <div>
+      <div className='my-6 grid md:grid-cols-3 lg:grid-cols-4 gap-3'>
         {projects.length > 0 &&
           projects.map(project => (
             <ProjetoCard
               name={project.name}
               budget={project.budget}
               id={project.id}
-              category={project.category.name}
+              category={project.category && project.category.name}
               key={project.id}
               handleRemove={removeProject}
             />
@@ -75,3 +75,4 @@ export default function Projetos() {
     </div>
   )
 }
+

@@ -1,11 +1,10 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;900&display=swap');
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-*{
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -13,6 +12,12 @@
   font-weight: 300;
 }
 
-html, body, #root{
-  height: 100%;
+html,
+body,
+#root {
+  background-color: #f1f1f1;
+}
+
+h1, p {
+  @apply text-gray-600;
 }
